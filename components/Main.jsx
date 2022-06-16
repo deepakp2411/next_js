@@ -19,7 +19,7 @@ const Main = () => {
             I m a front-end web developer specializing in building 
             exceptional web apps. Currently,
             I m focused on building responsive front-end web applications while
-            learning back-end technologies.
+            learning back-end technologies and Searching for job.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

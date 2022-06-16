@@ -5,6 +5,7 @@ import propertyImg from '../public/assets/projects/property.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
+import blackRoadsImg from '../public/assets/projects/blackroads.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -16,6 +17,11 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I have Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Property Finder'
+            backgroundImg={blackRoadsImg}
+            projectUrl='/blackroads'
+          />
           <ProjectItem
             title='Property Finder'
             backgroundImg={propertyImg}
