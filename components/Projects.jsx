@@ -18,7 +18,7 @@ const Projects = () => {
         <h2 className='py-4'>What I have Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='BlackRoads Tours'
             backgroundImg={blackRoadsImg}
             projectUrl='/blackroads'
           />
